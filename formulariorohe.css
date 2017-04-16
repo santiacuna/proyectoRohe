@@ -1,0 +1,57 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16spx;
+  background-image: url(../Imagenes/ep_naturalwhite.png);
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+
+h2 {
+  /*text-align: center;*/
+  font-weight: bold;
+}
+
+form {
+  /*nos dieron de ejemplo para poner background-color: #h7h7h7;*/
+  background-image: url(../Imagenes/ep_naturalwhite.png);
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+
+input, textarea {
+  background: #eeeeee
+}
+
+label {
+  color: #000;
+}
+
+
+textarea {
+  resize: vertical;
+}
+
+h2:hover {
+  text-decoration: underline;
+}
+
+input:focus, textarea; {
+  background-color: #d8dfdb;
+}
+
+.datos p label {
+  font-weight: bold;
+}
+
+.hobbies {
+  font-size: 16px;
+}
+
+.letra {
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
